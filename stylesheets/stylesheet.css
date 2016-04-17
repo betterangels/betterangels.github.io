@@ -51,7 +51,7 @@ Theme Styles
 body {
   box-sizing: border-box;
   color:#373737;
-  background: #212121;
+  background: #a589d1 url(../images/ba-background.png) center no-repeat;
   font-size: 16px;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -287,12 +287,12 @@ Full-Width Styles
 }
 
 #header_wrap {
-  background: #212121;
+  background: rgba(33,33,33,0.5);/*
   background: -moz-linear-gradient(top, #373737, #212121);
   background: -webkit-linear-gradient(top, #373737, #212121);
   background: -ms-linear-gradient(top, #373737, #212121);
   background: -o-linear-gradient(top, #373737, #212121);
-  background: linear-gradient(top, #373737, #212121);
+  background: linear-gradient(top, #373737, #212121);*/
 }
 
 #header_wrap .inner {
@@ -355,7 +355,7 @@ Full-Width Styles
 }
 
 #main_content_wrap {
-  background: #f2f2f2;
+  background: rgba(242,242,242,0.9);
   border-top: 1px solid #111;
   border-bottom: 1px solid #111;
 }
@@ -365,7 +365,7 @@ Full-Width Styles
 }
 
 #footer_wrap {
-  background: #212121;
+  background: rgba(33,33,33,0.5);
 }
 
 
