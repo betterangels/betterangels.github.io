@@ -52,6 +52,7 @@ body {
   box-sizing: border-box;
   color:#373737;
   background: #a589d1 url(../images/ba-background.png) no-repeat center;
+  background-attachment: fixed;
   font-size: 16px;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
