@@ -1,0 +1,15 @@
+/**
+ * @group Footer
+ */
+footer p:first-of-type, footer ul, footer li {
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+footer li::after {
+    content: " \2022"; /* bullet */
+    color: #f2f2f2;
+}
+footer li:last-child::after {
+    content: "";
+}
